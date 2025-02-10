@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 from blocks import PositionalEncoding, Encoder, Decoder
-from Transformers.src.utils import causal_mask, padding_mask
+from utils import causal_mask, padding_mask
 
 class Transformer(nn.Module):
     
